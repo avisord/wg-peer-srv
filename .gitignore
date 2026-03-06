@@ -1,0 +1,65 @@
+# ----------------------------
+
+# WireGuard runtime secrets
+
+# ----------------------------
+
+wireguard-config/server/privatekey*
+wireguard-config/peer*/privatekey*
+wireguard-config/peer*/presharedkey*
+
+# ----------------------------
+
+# Generated peer configs
+
+# ----------------------------
+
+wireguard-config/peer*/peer*.conf
+wireguard-config/wg_confs/*.conf
+
+# ----------------------------
+
+# QR codes (contain full peer config)
+
+# ----------------------------
+
+wireguard-config/peer*/peer*.png
+
+# ----------------------------
+
+# Optional: ignore entire runtime directory
+
+# (recommended if everything inside is generated)
+
+# ----------------------------
+
+# wireguard-config/
+
+# ----------------------------
+
+# Environment files
+
+# ----------------------------
+
+.env
+.env.*
+
+# ----------------------------
+
+# OS / editor noise
+
+# ----------------------------
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ----------------------------
+
+# Docker
+
+# ----------------------------
+
+docker-data/
+
