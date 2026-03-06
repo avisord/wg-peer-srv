@@ -123,28 +123,12 @@ The QR code can be scanned directly in the WireGuard mobile app.
 
 ---
 
-# Security Notes
-
-This repository intentionally **does not store any secrets**.
-
-Never commit:
-
-* private keys
-* preshared keys
-* peer configs
-* QR codes
-
-These files are automatically ignored by `.gitignore`.
-
----
-
 # Purpose of This Repo
 
 This project exists mainly for:
 
-* learning WireGuard infrastructure
 * quick VPN deployment
-* personal peer network experiments
+* personal peer network sharing
 * Docker-based reproducible setup
 
 ---
