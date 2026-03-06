@@ -1,4 +1,4 @@
-# Peer Sharing WireGuard
+# wireguard peer sharing
 
 Simple infrastructure for running a **WireGuard VPN server using Docker**.
 
@@ -12,7 +12,7 @@ All **private keys and runtime configs are generated locally** and are ignored b
 # Project Structure
 
 ```
-peer-sharing-wireguard
+wg-peer-srv
 │
 ├ docker-compose.yml       # Main docker orchestration
 │
